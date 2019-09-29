@@ -1,0 +1,2085 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"11906 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11906: extern volatile __bit TMR2IF __attribute__((address(0x89)));
+[v _TMR2IF `Vb ~T0 @X0 0 e@137 ]
+"11765
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11765: extern volatile __bit SSP1IF __attribute__((address(0x8B)));
+[v _SSP1IF `Vb ~T0 @X0 0 e@139 ]
+"3252
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3252: extern volatile unsigned char SSPBUF __attribute__((address(0x211)));
+[v _SSPBUF `Vuc ~T0 @X0 0 e@529 ]
+"11768
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11768: extern volatile __bit SSPEN __attribute__((address(0x10AD)));
+[v _SSPEN `Vb ~T0 @X0 0 e@4269 ]
+"3498
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3498:     struct {
+[s S194 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S194 . SSPM0 SSPM1 SSPM2 SSPM3 CKP SSPEN SSPOV WCOL ]
+"3508
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3508:     struct {
+[s S195 :4 `uc 1 ]
+[n S195 . SSPM ]
+"3497
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3497: typedef union {
+[u S193 `S194 1 `S195 1 ]
+[n S193 . . . ]
+"3512
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3512: extern volatile SSP1CON1bits_t SSP1CON1bits __attribute__((address(0x215)));
+[v _SSP1CON1bits `VS193 ~T0 @X0 0 e@533 ]
+[p mainexit ]
+"10514
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 10514: extern volatile __bit IRCF3 __attribute__((address(0x4CE)));
+[v _IRCF3 `Vb ~T0 @X0 0 e@1230 ]
+"10511
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 10511: extern volatile __bit IRCF2 __attribute__((address(0x4CD)));
+[v _IRCF2 `Vb ~T0 @X0 0 e@1229 ]
+"10508
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 10508: extern volatile __bit IRCF1 __attribute__((address(0x4CC)));
+[v _IRCF1 `Vb ~T0 @X0 0 e@1228 ]
+"10505
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 10505: extern volatile __bit IRCF0 __attribute__((address(0x4CB)));
+[v _IRCF0 `Vb ~T0 @X0 0 e@1227 ]
+"11738
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11738: extern volatile __bit SCS1 __attribute__((address(0x4C9)));
+[v _SCS1 `Vb ~T0 @X0 0 e@1225 ]
+"11735
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11735: extern volatile __bit SCS0 __attribute__((address(0x4C8)));
+[v _SCS0 `Vb ~T0 @X0 0 e@1224 ]
+"11786
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11786: extern volatile __bit SSSEL __attribute__((address(0x8EC)));
+[v _SSSEL `Vb ~T0 @X0 0 e@2284 ]
+"1041
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1041: extern volatile unsigned char TRISA __attribute__((address(0x08C)));
+[v _TRISA `Vuc ~T0 @X0 0 e@140 ]
+"1091
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1091: extern volatile unsigned char TRISB __attribute__((address(0x08D)));
+[v _TRISB `Vuc ~T0 @X0 0 e@141 ]
+"1130
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1130: extern volatile unsigned char TRISC __attribute__((address(0x08E)));
+[v _TRISC `Vuc ~T0 @X0 0 e@142 ]
+"2545
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2545: extern volatile unsigned char ANSELA __attribute__((address(0x18C)));
+[v _ANSELA `Vuc ~T0 @X0 0 e@396 ]
+"2592
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2592: extern volatile unsigned char ANSELB __attribute__((address(0x18D)));
+[v _ANSELB `Vuc ~T0 @X0 0 e@397 ]
+"2628
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2628: extern volatile unsigned char ANSELC __attribute__((address(0x18E)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@398 ]
+"3141
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3141: extern volatile unsigned char WPUA __attribute__((address(0x20C)));
+[v _WPUA `Vuc ~T0 @X0 0 e@524 ]
+"3199
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3199: extern volatile unsigned char WPUB __attribute__((address(0x20D)));
+[v _WPUB `Vuc ~T0 @X0 0 e@525 ]
+"11762
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11762: extern volatile __bit SSP1IE __attribute__((address(0x48B)));
+[v _SSP1IE `Vb ~T0 @X0 0 e@1163 ]
+"3366
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3366: extern volatile unsigned char SSPSTAT __attribute__((address(0x214)));
+[v _SSPSTAT `Vuc ~T0 @X0 0 e@532 ]
+"3492
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3492: extern volatile unsigned char SSPCON1 __attribute__((address(0x215)));
+[v _SSPCON1 `Vuc ~T0 @X0 0 e@533 ]
+"3814
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3814: extern volatile unsigned char SSPCON3 __attribute__((address(0x217)));
+[v _SSPCON3 `Vuc ~T0 @X0 0 e@535 ]
+"970
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 970: extern volatile unsigned char T2CON __attribute__((address(0x01C)));
+[v _T2CON `Vuc ~T0 @X0 0 e@28 ]
+"950
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 950: extern volatile unsigned char PR2 __attribute__((address(0x01B)));
+[v _PR2 `Vuc ~T0 @X0 0 e@27 ]
+"11903
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11903: extern volatile __bit TMR2IE __attribute__((address(0x489)));
+[v _TMR2IE `Vb ~T0 @X0 0 e@1161 ]
+"930
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 930: extern volatile unsigned char TMR2 __attribute__((address(0x01A)));
+[v _TMR2 `Vuc ~T0 @X0 0 e@26 ]
+"1872
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1872:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S104 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
+"1871
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1871: typedef union {
+[u S103 `S104 1 ]
+[n S103 . . ]
+"1881
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1881: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
+[v _LATAbits `VS103 ~T0 @X0 0 e@268 ]
+"1956
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1956:     struct {
+[s S108 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S108 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"1955
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1955: typedef union {
+[u S107 `S108 1 ]
+[n S107 . . ]
+"1967
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1967: extern volatile LATCbits_t LATCbits __attribute__((address(0x10E)));
+[v _LATCbits `VS107 ~T0 @X0 0 e@270 ]
+"1917
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1917:     struct {
+[s S106 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S106 . . LATB4 LATB5 LATB6 LATB7 ]
+"1916
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1916: typedef union {
+[u S105 `S106 1 ]
+[n S105 . . ]
+"1925
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1925: extern volatile LATBbits_t LATBbits __attribute__((address(0x10D)));
+[v _LATBbits `VS105 ~T0 @X0 0 e@269 ]
+"10382
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 10382: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"11447
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11447: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"11909
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 11909: extern volatile __bit TMR2ON __attribute__((address(0xE2)));
+[v _TMR2ON `Vb ~T0 @X0 0 e@226 ]
+"78 C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 78: void display(unsigned int x);
+[v _display `(v ~T0 @X0 0 ef1`ui ]
+"79
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 79: void display_dash(void);
+[v _display_dash `(v ~T0 @X0 0 ef ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 481: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"520
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 520: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"582
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 582: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"639
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 639: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"685
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 685: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"723
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 723: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"743
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 743: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"750
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 750: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"770
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 770: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"790
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 790: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"862
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 862: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"932
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 932: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"952
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 952: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"972
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 972: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1043
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1043: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1093
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1093: __asm("TRISB equ 08Dh");
+[; <" TRISB equ 08Dh ;# ">
+"1132
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1132: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1194
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1194: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1251
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1251: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1297
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1297: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1335
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1335: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1418
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1418: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1475
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1475: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1534
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1534: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1600: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1646
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1646: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1653
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1653: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1673
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1673: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1693
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1693: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1773
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1773: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1820
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1820: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"1868
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1868: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1913
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1913: __asm("LATB equ 010Dh");
+[; <" LATB equ 010Dh ;# ">
+"1952
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 1952: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2014
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2014: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2071
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2071: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2143
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2143: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2200
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2200: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2272
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2272: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2298
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2298: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2331
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2331: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2407
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2407: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2448
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2448: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2500
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2500: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"2547
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2547: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2594
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2594: __asm("ANSELB equ 018Dh");
+[; <" ANSELB equ 018Dh ;# ">
+"2630
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2630: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2689
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2689: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"2696
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2696: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"2716
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2716: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"2736
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2736: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"2743
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2743: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"2763
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2763: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"2783
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2783: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"2839
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2839: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"2859
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2859: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"2880
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2880: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2900
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2900: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2920
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2920: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"2927
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2927: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2947
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2947: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2967
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 2967: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3029
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3029: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3091
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3091: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3143
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3143: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3201
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3201: __asm("WPUB equ 020Dh");
+[; <" WPUB equ 020Dh ;# ">
+"3249
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3249: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3254
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3254: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3287
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3287: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3292
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3292: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3325
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3325: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3330
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3330: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3363
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3363: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3368
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3368: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3485
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3485: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3490
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3490: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"3494
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3494: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3689
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3689: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"3694
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3694: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"3811
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3811: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"3816
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3816: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"3933
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3933: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"3991
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 3991: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"4049
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4049: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"4107
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4107: __asm("IOCBP equ 0394h");
+[; <" IOCBP equ 0394h ;# ">
+"4155
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4155: __asm("IOCBN equ 0395h");
+[; <" IOCBN equ 0395h ;# ">
+"4203
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4203: __asm("IOCBF equ 0396h");
+[; <" IOCBF equ 0396h ;# ">
+"4253
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4253: __asm("NCO1ACC equ 0498h");
+[; <" NCO1ACC equ 0498h ;# ">
+"4260
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4260: __asm("NCO1ACCL equ 0498h");
+[; <" NCO1ACCL equ 0498h ;# ">
+"4322
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4322: __asm("NCO1ACCH equ 0499h");
+[; <" NCO1ACCH equ 0499h ;# ">
+"4384
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4384: __asm("NCO1ACCU equ 049Ah");
+[; <" NCO1ACCU equ 049Ah ;# ">
+"4424
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4424: __asm("NCO1INC equ 049Bh");
+[; <" NCO1INC equ 049Bh ;# ">
+"4431
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4431: __asm("NCO1INCL equ 049Bh");
+[; <" NCO1INCL equ 049Bh ;# ">
+"4493
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4493: __asm("NCO1INCH equ 049Ch");
+[; <" NCO1INCH equ 049Ch ;# ">
+"4555
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4555: __asm("NCO1INCU equ 049Dh");
+[; <" NCO1INCU equ 049Dh ;# ">
+"4562
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4562: __asm("NCO1CON equ 049Eh");
+[; <" NCO1CON equ 049Eh ;# ">
+"4607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4607: __asm("NCO1CLK equ 049Fh");
+[; <" NCO1CLK equ 049Fh ;# ">
+"4667
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4667: __asm("PWM1DCL equ 0611h");
+[; <" PWM1DCL equ 0611h ;# ">
+"4703
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4703: __asm("PWM1DCH equ 0612h");
+[; <" PWM1DCH equ 0612h ;# ">
+"4773
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4773: __asm("PWM1CON equ 0613h");
+[; <" PWM1CON equ 0613h ;# ">
+"4778
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4778: __asm("PWM1CON0 equ 0613h");
+[; <" PWM1CON0 equ 0613h ;# ">
+"4849
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4849: __asm("PWM2DCL equ 0614h");
+[; <" PWM2DCL equ 0614h ;# ">
+"4885
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4885: __asm("PWM2DCH equ 0615h");
+[; <" PWM2DCH equ 0615h ;# ">
+"4955
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4955: __asm("PWM2CON equ 0616h");
+[; <" PWM2CON equ 0616h ;# ">
+"4960
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 4960: __asm("PWM2CON0 equ 0616h");
+[; <" PWM2CON0 equ 0616h ;# ">
+"5031
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5031: __asm("PWM3DCL equ 0617h");
+[; <" PWM3DCL equ 0617h ;# ">
+"5067
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5067: __asm("PWM3DCH equ 0618h");
+[; <" PWM3DCH equ 0618h ;# ">
+"5137
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5137: __asm("PWM3CON equ 0619h");
+[; <" PWM3CON equ 0619h ;# ">
+"5142
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5142: __asm("PWM3CON0 equ 0619h");
+[; <" PWM3CON0 equ 0619h ;# ">
+"5213
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5213: __asm("PWM4DCL equ 061Ah");
+[; <" PWM4DCL equ 061Ah ;# ">
+"5249
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5249: __asm("PWM4DCH equ 061Bh");
+[; <" PWM4DCH equ 061Bh ;# ">
+"5319
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5319: __asm("PWM4CON equ 061Ch");
+[; <" PWM4CON equ 061Ch ;# ">
+"5324
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5324: __asm("PWM4CON0 equ 061Ch");
+[; <" PWM4CON0 equ 061Ch ;# ">
+"5395
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5395: __asm("CWG1DBR equ 0691h");
+[; <" CWG1DBR equ 0691h ;# ">
+"5453
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5453: __asm("CWG1DBF equ 0692h");
+[; <" CWG1DBF equ 0692h ;# ">
+"5511
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5511: __asm("CWG1CON0 equ 0693h");
+[; <" CWG1CON0 equ 0693h ;# ">
+"5570
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5570: __asm("CWG1CON1 equ 0694h");
+[; <" CWG1CON1 equ 0694h ;# ">
+"5647
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5647: __asm("CWG1CON2 equ 0695h");
+[; <" CWG1CON2 equ 0695h ;# ">
+"5698
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5698: __asm("CLCDATA equ 0F0Fh");
+[; <" CLCDATA equ 0F0Fh ;# ">
+"5736
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5736: __asm("CLC1CON equ 0F10h");
+[; <" CLC1CON equ 0F10h ;# ">
+"5856
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5856: __asm("CLC1POL equ 0F11h");
+[; <" CLC1POL equ 0F11h ;# ">
+"5934
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 5934: __asm("CLC1SEL0 equ 0F12h");
+[; <" CLC1SEL0 equ 0F12h ;# ">
+"6039
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6039: __asm("CLC1SEL1 equ 0F13h");
+[; <" CLC1SEL1 equ 0F13h ;# ">
+"6144
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6144: __asm("CLC1GLS0 equ 0F14h");
+[; <" CLC1GLS0 equ 0F14h ;# ">
+"6256
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6256: __asm("CLC1GLS1 equ 0F15h");
+[; <" CLC1GLS1 equ 0F15h ;# ">
+"6368
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6368: __asm("CLC1GLS2 equ 0F16h");
+[; <" CLC1GLS2 equ 0F16h ;# ">
+"6480
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6480: __asm("CLC1GLS3 equ 0F17h");
+[; <" CLC1GLS3 equ 0F17h ;# ">
+"6592
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6592: __asm("CLC2CON equ 0F18h");
+[; <" CLC2CON equ 0F18h ;# ">
+"6712
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6712: __asm("CLC2POL equ 0F19h");
+[; <" CLC2POL equ 0F19h ;# ">
+"6790
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6790: __asm("CLC2SEL0 equ 0F1Ah");
+[; <" CLC2SEL0 equ 0F1Ah ;# ">
+"6895
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 6895: __asm("CLC2SEL1 equ 0F1Bh");
+[; <" CLC2SEL1 equ 0F1Bh ;# ">
+"7000
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7000: __asm("CLC2GLS0 equ 0F1Ch");
+[; <" CLC2GLS0 equ 0F1Ch ;# ">
+"7112
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7112: __asm("CLC2GLS1 equ 0F1Dh");
+[; <" CLC2GLS1 equ 0F1Dh ;# ">
+"7224
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7224: __asm("CLC2GLS2 equ 0F1Eh");
+[; <" CLC2GLS2 equ 0F1Eh ;# ">
+"7336
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7336: __asm("CLC2GLS3 equ 0F1Fh");
+[; <" CLC2GLS3 equ 0F1Fh ;# ">
+"7448
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7448: __asm("CLC3CON equ 0F20h");
+[; <" CLC3CON equ 0F20h ;# ">
+"7568
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7568: __asm("CLC3POL equ 0F21h");
+[; <" CLC3POL equ 0F21h ;# ">
+"7646
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7646: __asm("CLC3SEL0 equ 0F22h");
+[; <" CLC3SEL0 equ 0F22h ;# ">
+"7751
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7751: __asm("CLC3SEL1 equ 0F23h");
+[; <" CLC3SEL1 equ 0F23h ;# ">
+"7856
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7856: __asm("CLC3GLS0 equ 0F24h");
+[; <" CLC3GLS0 equ 0F24h ;# ">
+"7968
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 7968: __asm("CLC3GLS1 equ 0F25h");
+[; <" CLC3GLS1 equ 0F25h ;# ">
+"8080
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8080: __asm("CLC3GLS2 equ 0F26h");
+[; <" CLC3GLS2 equ 0F26h ;# ">
+"8192
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8192: __asm("CLC3GLS3 equ 0F27h");
+[; <" CLC3GLS3 equ 0F27h ;# ">
+"8304
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8304: __asm("CLC4CON equ 0F28h");
+[; <" CLC4CON equ 0F28h ;# ">
+"8424
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8424: __asm("CLC4POL equ 0F29h");
+[; <" CLC4POL equ 0F29h ;# ">
+"8502
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8502: __asm("CLC4SEL0 equ 0F2Ah");
+[; <" CLC4SEL0 equ 0F2Ah ;# ">
+"8607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8607: __asm("CLC4SEL1 equ 0F2Bh");
+[; <" CLC4SEL1 equ 0F2Bh ;# ">
+"8712
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8712: __asm("CLC4GLS0 equ 0F2Ch");
+[; <" CLC4GLS0 equ 0F2Ch ;# ">
+"8824
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8824: __asm("CLC4GLS1 equ 0F2Dh");
+[; <" CLC4GLS1 equ 0F2Dh ;# ">
+"8936
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 8936: __asm("CLC4GLS2 equ 0F2Eh");
+[; <" CLC4GLS2 equ 0F2Eh ;# ">
+"9048
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9048: __asm("CLC4GLS3 equ 0F2Fh");
+[; <" CLC4GLS3 equ 0F2Fh ;# ">
+"9160
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9160: __asm("ICDIO equ 0F8Ch");
+[; <" ICDIO equ 0F8Ch ;# ">
+"9211
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9211: __asm("ICDCON0 equ 0F8Dh");
+[; <" ICDCON0 equ 0F8Dh ;# ">
+"9257
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9257: __asm("ICDSTAT equ 0F91h");
+[; <" ICDSTAT equ 0F91h ;# ">
+"9291
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9291: __asm("DEVSEL equ 0F95h");
+[; <" DEVSEL equ 0F95h ;# ">
+"9323
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9323: __asm("ICDINSTL equ 0F96h");
+[; <" ICDINSTL equ 0F96h ;# ">
+"9385
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9385: __asm("ICDINSTH equ 0F97h");
+[; <" ICDINSTH equ 0F97h ;# ">
+"9435
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9435: __asm("ICDBK0CON equ 0F9Ch");
+[; <" ICDBK0CON equ 0F9Ch ;# ">
+"9462
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9462: __asm("ICDBK0L equ 0F9Dh");
+[; <" ICDBK0L equ 0F9Dh ;# ">
+"9524
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9524: __asm("ICDBK0H equ 0F9Eh");
+[; <" ICDBK0H equ 0F9Eh ;# ">
+"9580
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9580: __asm("BSRICDSHAD equ 0FE3h");
+[; <" BSRICDSHAD equ 0FE3h ;# ">
+"9600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9600: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"9632
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9632: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"9652
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9652: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"9672
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9672: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"9692
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9692: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"9712
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9712: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"9732
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9732: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"9752
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9752: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"9772
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9772: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"9792
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9792: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"9812
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h: 9812: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"11 C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c
+[p x FOSC = INTOSC ]
+"12
+[p x WDTE = OFF ]
+"13
+[p x PWRTE = OFF ]
+"14
+[p x MCLRE = OFF ]
+"15
+[p x CP = OFF ]
+"16
+[p x BOREN = OFF ]
+"17
+[p x CLKOUTEN = OFF ]
+"18
+[p x IESO = OFF ]
+"19
+[p x FCMEN = OFF ]
+"22
+[p x WRT = OFF ]
+"23
+[p x STVREN = ON ]
+"24
+[p x BORV = LO ]
+"25
+[p x LPBOR = OFF ]
+"26
+[p x LVP = OFF ]
+"62
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 62: unsigned int buf;
+[v _buf `ui ~T0 @X0 1 e ]
+"63
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 63: char t;
+[v _t `uc ~T0 @X0 1 e ]
+"64
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 64: char temp_digit;
+[v _temp_digit `uc ~T0 @X0 1 e ]
+"65
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 65: char digit1;
+[v _digit1 `uc ~T0 @X0 1 e ]
+"66
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 66: char digit2;
+[v _digit2 `uc ~T0 @X0 1 e ]
+"67
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 67: char digit3;
+[v _digit3 `uc ~T0 @X0 1 e ]
+"68
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 68: char digit4;
+[v _digit4 `uc ~T0 @X0 1 e ]
+"69
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 69: char digit_error;
+[v _digit_error `uc ~T0 @X0 1 e ]
+"70
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 70: char dummy;
+[v _dummy `uc ~T0 @X0 1 e ]
+"71
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 71: char no_spi;
+[v _no_spi `uc ~T0 @X0 1 e ]
+"72
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 72: unsigned int no_spi_timer;
+[v _no_spi_timer `ui ~T0 @X0 1 e ]
+"73
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 73: char no_spi_counter;
+[v _no_spi_counter `uc ~T0 @X0 1 e ]
+"74
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 74: char no_spi_digit;
+[v _no_spi_digit `uc ~T0 @X0 1 e ]
+"75
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 75: char update;
+[v _update `uc ~T0 @X0 1 e ]
+"76
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 76: char on;
+[v _on `uc ~T0 @X0 1 e ]
+"77
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 77: char off;
+[v _off `uc ~T0 @X0 1 e ]
+[v $root$_myIsr `(v ~T0 @X0 0 e ]
+"81
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 81: void __attribute__((picinterrupt(""))) myIsr(void)
+[v _myIsr `(v ~T1 @X0 1 ef ]
+"82
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 82: {
+{
+[e :U _myIsr ]
+[f ]
+"83
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 83:     if (TMR2IF == 1)
+[e $ ! == -> _TMR2IF `i -> 1 `i 450  ]
+"84
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 84:     {
+{
+"85
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 85:         if (t < 3)
+[e $ ! < -> _t `i -> 3 `i 451  ]
+"86
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 86:         {
+{
+"87
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 87:             t++;
+[e ++ _t -> -> 1 `i `uc ]
+"88
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 88:         }
+}
+[e $U 452  ]
+"89
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 89:         else
+[e :U 451 ]
+"90
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 90:         {
+{
+"91
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 91:             t = 0;
+[e = _t -> -> 0 `i `uc ]
+"92
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 92:         }
+}
+[e :U 452 ]
+"94
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 94:         if (no_spi_timer < 5700)
+[e $ ! < _no_spi_timer -> -> 5700 `i `ui 453  ]
+"95
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 95:         {
+{
+"96
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 96:             no_spi_timer++;
+[e ++ _no_spi_timer -> -> 1 `i `ui ]
+"97
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 97:         }
+}
+[e $U 454  ]
+"98
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 98:         else
+[e :U 453 ]
+"99
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 99:         {
+{
+"100
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 100:             no_spi_timer = 0;
+[e = _no_spi_timer -> -> 0 `i `ui ]
+"101
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 101:             no_spi = 1;
+[e = _no_spi -> -> 1 `i `uc ]
+"102
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 102:             if (no_spi_counter < 15)
+[e $ ! < -> _no_spi_counter `i -> 15 `i 455  ]
+"103
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 103:             {
+{
+"104
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 104:                 no_spi_counter++;
+[e ++ _no_spi_counter -> -> 1 `i `uc ]
+"105
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 105:             }
+}
+[e $U 456  ]
+"106
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 106:             else
+[e :U 455 ]
+"107
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 107:             {
+{
+"108
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 108:                 no_spi_counter = 0;
+[e = _no_spi_counter -> -> 0 `i `uc ]
+"109
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 109:                 if (no_spi_digit < 3)
+[e $ ! < -> _no_spi_digit `i -> 3 `i 457  ]
+"110
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 110:                 {
+{
+"111
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 111:                     no_spi_digit++;
+[e ++ _no_spi_digit -> -> 1 `i `uc ]
+"112
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 112:                 }
+}
+[e $U 458  ]
+"113
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 113:                 else
+[e :U 457 ]
+"114
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 114:                 {
+{
+"115
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 115:                     no_spi_digit = 0;
+[e = _no_spi_digit -> -> 0 `i `uc ]
+"116
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 116:                 }
+}
+[e :U 458 ]
+"117
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 117:             }
+}
+[e :U 456 ]
+"118
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 118:         }
+}
+[e :U 454 ]
+"120
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 120:         update = 1;
+[e = _update -> -> 1 `i `uc ]
+"121
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 121:         TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"122
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 122:     }
+}
+[e :U 450 ]
+"124
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 124:     if (SSP1IF == 1)
+[e $ ! == -> _SSP1IF `i -> 1 `i 459  ]
+"125
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 125:     {
+{
+"126
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 126:         buf = SSPBUF;
+[e = _buf -> _SSPBUF `ui ]
+"127
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 127:         temp_digit = (buf & 0x0070) >> 4;
+[e = _temp_digit -> >> & _buf -> -> 112 `i `ui -> 4 `i `uc ]
+"128
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 128:         no_spi_timer = 0;
+[e = _no_spi_timer -> -> 0 `i `ui ]
+"129
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 129:         no_spi = 0;
+[e = _no_spi -> -> 0 `i `uc ]
+"130
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 130:         digit_error = 0;
+[e = _digit_error -> -> 0 `i `uc ]
+"132
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 132:         switch (temp_digit)
+[e $U 461  ]
+"133
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 133:         {
+{
+"134
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 134:             case 1:
+[e :U 462 ]
+"135
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 135:                 digit1 = (buf & 0x000f);
+[e = _digit1 -> & _buf -> -> 15 `i `ui `uc ]
+"136
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 136:                 break;
+[e $U 460  ]
+"137
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 137:             case 2:
+[e :U 463 ]
+"138
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 138:                 digit2 = (buf & 0x000f);
+[e = _digit2 -> & _buf -> -> 15 `i `ui `uc ]
+"139
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 139:                 break;
+[e $U 460  ]
+"140
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 140:             case 3:
+[e :U 464 ]
+"141
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 141:                 digit3 = (buf & 0x000f);
+[e = _digit3 -> & _buf -> -> 15 `i `ui `uc ]
+"142
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 142:                 break;
+[e $U 460  ]
+"143
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 143:             case 4:
+[e :U 465 ]
+"144
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 144:                 digit4 = (buf & 0x000f);
+[e = _digit4 -> & _buf -> -> 15 `i `ui `uc ]
+"145
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 145:                 break;
+[e $U 460  ]
+"146
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 146:             default:
+[e :U 466 ]
+"147
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 147:                 digit_error = 1;
+[e = _digit_error -> -> 1 `i `uc ]
+"148
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 148:                 SSPEN = 0;
+[e = _SSPEN -> -> 0 `i `b ]
+"149
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 149:                 SSP1CON1bits.WCOL = 0;
+[e = . . _SSP1CON1bits 0 7 -> -> 0 `i `uc ]
+"150
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 150:                 SSP1CON1bits.SSPOV = 0;
+[e = . . _SSP1CON1bits 0 6 -> -> 0 `i `uc ]
+"152
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 152:                 SSPEN = 1;
+[e = _SSPEN -> -> 1 `i `b ]
+"153
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 153:         }
+}
+[e $U 460  ]
+[e :U 461 ]
+[e [\ -> _temp_digit `i , $ -> 1 `i 462
+ , $ -> 2 `i 463
+ , $ -> 3 `i 464
+ , $ -> 4 `i 465
+ 466 ]
+[e :U 460 ]
+"154
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 154:         SSP1IF = 0;
+[e = _SSP1IF -> -> 0 `i `b ]
+"155
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 155:     }
+}
+[e :U 459 ]
+"158
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 158:     return;
+[e $UE 449  ]
+"159
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 159: }
+[e :UE 449 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"161
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 161: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"162
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 162: {
+{
+[e :U _main ]
+[f ]
+"163
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 163:     on = 0;
+[e = _on -> -> 0 `i `uc ]
+"164
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 164:     off = 1;
+[e = _off -> -> 1 `i `uc ]
+"166
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 166:     IRCF3 = 1;
+[e = _IRCF3 -> -> 1 `i `b ]
+"167
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 167:     IRCF2 = 1;
+[e = _IRCF2 -> -> 1 `i `b ]
+"168
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 168:     IRCF1 = 1;
+[e = _IRCF1 -> -> 1 `i `b ]
+"169
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 169:     IRCF0 = 1;
+[e = _IRCF0 -> -> 1 `i `b ]
+"171
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 171:     SCS1 = 1;
+[e = _SCS1 -> -> 1 `i `b ]
+"172
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 172:     SCS0 = 1;
+[e = _SCS0 -> -> 1 `i `b ]
+"174
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 174:     SSSEL = 1;
+[e = _SSSEL -> -> 1 `i `b ]
+"176
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 176:     TRISA = 0x0B;
+[e = _TRISA -> -> 11 `i `uc ]
+"177
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 177:     TRISB = 0x50;
+[e = _TRISB -> -> 80 `i `uc ]
+"178
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 178:     TRISC = 0x00;
+[e = _TRISC -> -> 0 `i `uc ]
+"180
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 180:     ANSELA = 0x00;
+[e = _ANSELA -> -> 0 `i `uc ]
+"181
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 181:     ANSELB = 0x00;
+[e = _ANSELB -> -> 0 `i `uc ]
+"182
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 182:     ANSELC = 0x00;
+[e = _ANSELC -> -> 0 `i `uc ]
+"184
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 184:     WPUA = 0x00;
+[e = _WPUA -> -> 0 `i `uc ]
+"185
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 185:     WPUB = 0x00;
+[e = _WPUB -> -> 0 `i `uc ]
+"187
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 187:     SSP1IF = 0;
+[e = _SSP1IF -> -> 0 `i `b ]
+"188
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 188:     SSP1IE = 1;
+[e = _SSP1IE -> -> 1 `i `b ]
+"190
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 190:     SSPSTAT = 0x00;
+[e = _SSPSTAT -> -> 0 `i `uc ]
+"191
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 191:     SSPCON1 = 0x05;
+[e = _SSPCON1 -> -> 5 `i `uc ]
+"192
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 192:     SSPCON3 = 0x00;
+[e = _SSPCON3 -> -> 0 `i `uc ]
+"194
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 194:     T2CON = 0B01111001;
+[e = _T2CON -> -> 121 `i `uc ]
+"195
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 195:     PR2 = 0x0a;
+[e = _PR2 -> -> 10 `i `uc ]
+"196
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 196:     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"197
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 197:     TMR2IE = 1;
+[e = _TMR2IE -> -> 1 `i `b ]
+"198
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 198:     TMR2 = 0;
+[e = _TMR2 -> -> 0 `i `uc ]
+"200
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 200:     LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"201
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 201:     LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"202
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 202:     LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"203
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 203:     LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"204
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 204:     LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"205
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 205:     LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"206
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 206:     LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"207
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 207:     LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"208
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 208:     LATCbits.LATC6 = off;
+[e = . . _LATCbits 0 6 -> _off `uc ]
+"209
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 209:     LATCbits.LATC4 = off;
+[e = . . _LATCbits 0 4 -> _off `uc ]
+"210
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 210:     LATCbits.LATC5 = off;
+[e = . . _LATCbits 0 5 -> _off `uc ]
+"211
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 211:     LATBbits.LATB7 = off;
+[e = . . _LATBbits 0 4 -> _off `uc ]
+"213
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 213:     t = 0;
+[e = _t -> -> 0 `i `uc ]
+"214
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 214:     update = 0;
+[e = _update -> -> 0 `i `uc ]
+"215
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 215:     no_spi = 0;
+[e = _no_spi -> -> 0 `i `uc ]
+"216
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 216:     no_spi_timer = 0;
+[e = _no_spi_timer -> -> 0 `i `ui ]
+"217
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 217:     no_spi_counter = 0;
+[e = _no_spi_counter -> -> 0 `i `uc ]
+"218
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 218:     no_spi_digit = 0;
+[e = _no_spi_digit -> -> 0 `i `uc ]
+"220
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 220:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"221
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 221:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"223
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 223:     SSPEN = 1;
+[e = _SSPEN -> -> 1 `i `b ]
+"224
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 224:     TMR2ON = 1;
+[e = _TMR2ON -> -> 1 `i `b ]
+"226
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 226:     while (1)
+[e :U 469 ]
+"227
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 227:     {
+{
+"228
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 228:         if (update == 1)
+[e $ ! == -> _update `i -> 1 `i 471  ]
+"229
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 229:         {
+{
+"230
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 230:             if (no_spi == 1)
+[e $ ! == -> _no_spi `i -> 1 `i 472  ]
+"231
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 231:             {
+{
+"232
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 232:                 switch (t)
+[e $U 474  ]
+"233
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 233:                 {
+{
+"234
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 234:                     case 0:
+[e :U 475 ]
+"235
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 235:                         if (no_spi_digit == 0)
+[e $ ! == -> _no_spi_digit `i -> 0 `i 476  ]
+"236
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 236:                         {
+{
+"237
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 237:                             display(no_spi_counter);
+[e ( _display (1 -> _no_spi_counter `ui ]
+"238
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 238:                         }
+}
+[e $U 477  ]
+"239
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 239:                         else
+[e :U 476 ]
+"240
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 240:                         {
+{
+"241
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 241:                             display_dash();
+[e ( _display_dash ..  ]
+"242
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 242:                         }
+}
+[e :U 477 ]
+"243
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 243:                         LATCbits.LATC6 = on;
+[e = . . _LATCbits 0 6 -> _on `uc ]
+"244
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 244:                         break;
+[e $U 473  ]
+"245
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 245:                     case 1:
+[e :U 478 ]
+"246
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 246:                         if (no_spi_digit == 1)
+[e $ ! == -> _no_spi_digit `i -> 1 `i 479  ]
+"247
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 247:                         {
+{
+"248
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 248:                             display(no_spi_counter);
+[e ( _display (1 -> _no_spi_counter `ui ]
+"249
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 249:                         }
+}
+[e $U 480  ]
+"250
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 250:                         else
+[e :U 479 ]
+"251
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 251:                         {
+{
+"252
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 252:                             display_dash();
+[e ( _display_dash ..  ]
+"253
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 253:                         }
+}
+[e :U 480 ]
+"254
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 254:                         LATCbits.LATC4 = on;
+[e = . . _LATCbits 0 4 -> _on `uc ]
+"255
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 255:                         break;
+[e $U 473  ]
+"256
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 256:                     case 2:
+[e :U 481 ]
+"257
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 257:                         if (no_spi_digit == 2)
+[e $ ! == -> _no_spi_digit `i -> 2 `i 482  ]
+"258
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 258:                         {
+{
+"259
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 259:                             display(no_spi_counter);
+[e ( _display (1 -> _no_spi_counter `ui ]
+"260
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 260:                         }
+}
+[e $U 483  ]
+"261
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 261:                         else
+[e :U 482 ]
+"262
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 262:                         {
+{
+"263
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 263:                             display_dash();
+[e ( _display_dash ..  ]
+"264
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 264:                         }
+}
+[e :U 483 ]
+"265
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 265:                         LATCbits.LATC5 = on;
+[e = . . _LATCbits 0 5 -> _on `uc ]
+"266
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 266:                         break;
+[e $U 473  ]
+"267
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 267:                     case 3:
+[e :U 484 ]
+"268
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 268:                         if (no_spi_digit == 3)
+[e $ ! == -> _no_spi_digit `i -> 3 `i 485  ]
+"269
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 269:                         {
+{
+"270
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 270:                             display(no_spi_counter);
+[e ( _display (1 -> _no_spi_counter `ui ]
+"271
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 271:                         }
+}
+[e $U 486  ]
+"272
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 272:                         else
+[e :U 485 ]
+"273
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 273:                         {
+{
+"274
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 274:                             display_dash();
+[e ( _display_dash ..  ]
+"275
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 275:                         }
+}
+[e :U 486 ]
+"276
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 276:                         LATBbits.LATB7 = on;
+[e = . . _LATBbits 0 4 -> _on `uc ]
+"277
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 277:                         break;
+[e $U 473  ]
+"278
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 278:                 }
+}
+[e $U 473  ]
+[e :U 474 ]
+[e [\ -> _t `i , $ -> 0 `i 475
+ , $ -> 1 `i 478
+ , $ -> 2 `i 481
+ , $ -> 3 `i 484
+ 473 ]
+[e :U 473 ]
+"279
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 279:             }
+}
+[e $U 487  ]
+"280
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 280:             else
+[e :U 472 ]
+"281
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 281:             {
+{
+"282
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 282:                 switch (t)
+[e $U 489  ]
+"283
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 283:                 {
+{
+"284
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 284:                     case 0:
+[e :U 490 ]
+"285
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 285:                         if (digit_error == 1) display(14);
+[e $ ! == -> _digit_error `i -> 1 `i 491  ]
+[e ( _display (1 -> -> 14 `i `ui ]
+[e $U 492  ]
+"286
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 286:                         else display(digit1);
+[e :U 491 ]
+[e ( _display (1 -> _digit1 `ui ]
+[e :U 492 ]
+"287
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 287:                         LATCbits.LATC6 = on;
+[e = . . _LATCbits 0 6 -> _on `uc ]
+"288
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 288:                         break;
+[e $U 488  ]
+"289
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 289:                     case 1:
+[e :U 493 ]
+"290
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 290:                         if (digit_error == 1) display(14);
+[e $ ! == -> _digit_error `i -> 1 `i 494  ]
+[e ( _display (1 -> -> 14 `i `ui ]
+[e $U 495  ]
+"291
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 291:                         else display(digit2);
+[e :U 494 ]
+[e ( _display (1 -> _digit2 `ui ]
+[e :U 495 ]
+"292
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 292:                         LATCbits.LATC4 = on;
+[e = . . _LATCbits 0 4 -> _on `uc ]
+"293
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 293:                         break;
+[e $U 488  ]
+"294
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 294:                     case 2:
+[e :U 496 ]
+"295
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 295:                         if (digit_error == 1) display(14);
+[e $ ! == -> _digit_error `i -> 1 `i 497  ]
+[e ( _display (1 -> -> 14 `i `ui ]
+[e $U 498  ]
+"296
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 296:                         else display(digit3);
+[e :U 497 ]
+[e ( _display (1 -> _digit3 `ui ]
+[e :U 498 ]
+"297
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 297:                         LATCbits.LATC5 = on;
+[e = . . _LATCbits 0 5 -> _on `uc ]
+"298
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 298:                         break;
+[e $U 488  ]
+"299
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 299:                     case 3:
+[e :U 499 ]
+"300
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 300:                         if (digit_error == 1) display(14);
+[e $ ! == -> _digit_error `i -> 1 `i 500  ]
+[e ( _display (1 -> -> 14 `i `ui ]
+[e $U 501  ]
+"301
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 301:                         else display(digit4);
+[e :U 500 ]
+[e ( _display (1 -> _digit4 `ui ]
+[e :U 501 ]
+"302
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 302:                         LATBbits.LATB7 = on;
+[e = . . _LATBbits 0 4 -> _on `uc ]
+"303
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 303:                         break;
+[e $U 488  ]
+"304
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 304:                 }
+}
+[e $U 488  ]
+[e :U 489 ]
+[e [\ -> _t `i , $ -> 0 `i 490
+ , $ -> 1 `i 493
+ , $ -> 2 `i 496
+ , $ -> 3 `i 499
+ 488 ]
+[e :U 488 ]
+"305
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 305:             }
+}
+[e :U 487 ]
+"306
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 306:             update = 0;
+[e = _update -> -> 0 `i `uc ]
+"307
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 307:         }
+}
+[e :U 471 ]
+"309
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 309:     }
+}
+[e :U 468 ]
+[e $U 469  ]
+[e :U 470 ]
+"311
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 311: }
+[e :UE 467 ]
+}
+"313
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 313: void display(unsigned int x)
+[v _display `(v ~T0 @X0 1 ef1`ui ]
+"314
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 314: {
+{
+[e :U _display ]
+"313
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 313: void display(unsigned int x)
+[v _x `ui ~T0 @X0 1 r1 ]
+"314
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 314: {
+[f ]
+"315
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 315:     LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"316
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 316:     LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"317
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 317:     LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"318
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 318:     LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"319
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 319:     LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"320
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 320:     LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"321
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 321:     LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"322
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 322:     LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"323
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 323:     LATCbits.LATC6 = off;
+[e = . . _LATCbits 0 6 -> _off `uc ]
+"324
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 324:     LATCbits.LATC4 = off;
+[e = . . _LATCbits 0 4 -> _off `uc ]
+"325
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 325:     LATCbits.LATC5 = off;
+[e = . . _LATCbits 0 5 -> _off `uc ]
+"326
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 326:     LATBbits.LATB7 = off;
+[e = . . _LATBbits 0 4 -> _off `uc ]
+"328
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 328:     switch (x)
+[e $U 504  ]
+"329
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 329:     {
+{
+"330
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 330:         case 0:
+[e :U 505 ]
+"331
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 331:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"332
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 332:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"333
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 333:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"334
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 334:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"335
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 335:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"336
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 336:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"337
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 337:             LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"338
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 338:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"339
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 339:             break;
+[e $U 503  ]
+"340
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 340:         case 1:
+[e :U 506 ]
+"341
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 341:             LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"342
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 342:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"343
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 343:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"344
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 344:             LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"345
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 345:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"346
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 346:             LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"347
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 347:             LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"348
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 348:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"349
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 349:             break;
+[e $U 503  ]
+"350
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 350:         case 2:
+[e :U 507 ]
+"351
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 351:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"352
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 352:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"353
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 353:             LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"354
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 354:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"355
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 355:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"356
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 356:             LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"357
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 357:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"358
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 358:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"359
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 359:             break;
+[e $U 503  ]
+"360
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 360:         case 3:
+[e :U 508 ]
+"361
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 361:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"362
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 362:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"363
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 363:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"364
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 364:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"365
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 365:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"366
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 366:             LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"367
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 367:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"368
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 368:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"369
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 369:             break;
+[e $U 503  ]
+"370
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 370:         case 4:
+[e :U 509 ]
+"371
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 371:             LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"372
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 372:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"373
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 373:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"374
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 374:             LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"375
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 375:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"376
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 376:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"377
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 377:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"378
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 378:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"379
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 379:             break;
+[e $U 503  ]
+"380
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 380:         case 5:
+[e :U 510 ]
+"381
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 381:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"382
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 382:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"383
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 383:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"384
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 384:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"385
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 385:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"386
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 386:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"387
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 387:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"388
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 388:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"389
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 389:             break;
+[e $U 503  ]
+"390
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 390:         case 6:
+[e :U 511 ]
+"391
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 391:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"392
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 392:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"393
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 393:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"394
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 394:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"395
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 395:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"396
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 396:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"397
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 397:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"398
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 398:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"399
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 399:             break;
+[e $U 503  ]
+"400
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 400:         case 7:
+[e :U 512 ]
+"401
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 401:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"402
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 402:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"403
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 403:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"404
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 404:             LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"405
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 405:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"406
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 406:             LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"407
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 407:             LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"408
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 408:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"409
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 409:             break;
+[e $U 503  ]
+"410
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 410:         case 8:
+[e :U 513 ]
+"411
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 411:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"412
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 412:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"413
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 413:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"414
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 414:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"415
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 415:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"416
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 416:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"417
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 417:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"418
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 418:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"419
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 419:             break;
+[e $U 503  ]
+"420
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 420:         case 9:
+[e :U 514 ]
+"421
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 421:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"422
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 422:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"423
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 423:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"424
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 424:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"425
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 425:             LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"426
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 426:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"427
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 427:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"428
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 428:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"429
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 429:             break;
+[e $U 503  ]
+"430
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 430:         case 10:
+[e :U 515 ]
+"431
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 431:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"432
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 432:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"433
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 433:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"434
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 434:             LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"435
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 435:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"436
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 436:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"437
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 437:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"438
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 438:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"439
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 439:             break;
+[e $U 503  ]
+"440
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 440:         case 11:
+[e :U 516 ]
+"441
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 441:             LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"442
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 442:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"443
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 443:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"444
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 444:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"445
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 445:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"446
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 446:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"447
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 447:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"448
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 448:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"449
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 449:             break;
+[e $U 503  ]
+"450
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 450:         case 12:
+[e :U 517 ]
+"451
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 451:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"452
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 452:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"453
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 453:             LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"454
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 454:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"455
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 455:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"456
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 456:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"457
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 457:             LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"458
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 458:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"459
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 459:             break;
+[e $U 503  ]
+"460
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 460:         case 13:
+[e :U 518 ]
+"461
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 461:             LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"462
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 462:             LATCbits.LATC2 = on;
+[e = . . _LATCbits 0 2 -> _on `uc ]
+"463
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 463:             LATAbits.LATA4 = on;
+[e = . . _LATAbits 0 4 -> _on `uc ]
+"464
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 464:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"465
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 465:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"466
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 466:             LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"467
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 467:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"468
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 468:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"469
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 469:             break;
+[e $U 503  ]
+"470
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 470:         case 14:
+[e :U 519 ]
+"471
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 471:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"472
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 472:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"473
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 473:             LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"474
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 474:             LATCbits.LATC1 = on;
+[e = . . _LATCbits 0 1 -> _on `uc ]
+"475
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 475:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"476
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 476:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"477
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 477:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"478
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 478:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"479
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 479:             break;
+[e $U 503  ]
+"480
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 480:         case 15:
+[e :U 520 ]
+"481
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 481:             LATAbits.LATA5 = on;
+[e = . . _LATAbits 0 5 -> _on `uc ]
+"482
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 482:             LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"483
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 483:             LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"484
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 484:             LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"485
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 485:             LATAbits.LATA2 = on;
+[e = . . _LATAbits 0 2 -> _on `uc ]
+"486
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 486:             LATCbits.LATC0 = on;
+[e = . . _LATCbits 0 0 -> _on `uc ]
+"487
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 487:             LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"488
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 488:             LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"489
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 489:             break;
+[e $U 503  ]
+"490
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 490:     }
+}
+[e $U 503  ]
+[e :U 504 ]
+[e [\ _x , $ -> -> 0 `i `ui 505
+ , $ -> -> 1 `i `ui 506
+ , $ -> -> 2 `i `ui 507
+ , $ -> -> 3 `i `ui 508
+ , $ -> -> 4 `i `ui 509
+ , $ -> -> 5 `i `ui 510
+ , $ -> -> 6 `i `ui 511
+ , $ -> -> 7 `i `ui 512
+ , $ -> -> 8 `i `ui 513
+ , $ -> -> 9 `i `ui 514
+ , $ -> -> 10 `i `ui 515
+ , $ -> -> 11 `i `ui 516
+ , $ -> -> 12 `i `ui 517
+ , $ -> -> 13 `i `ui 518
+ , $ -> -> 14 `i `ui 519
+ , $ -> -> 15 `i `ui 520
+ 503 ]
+[e :U 503 ]
+"491
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 491: }
+[e :UE 502 ]
+}
+"493
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 493: void display_dash(void)
+[v _display_dash `(v ~T0 @X0 1 ef ]
+"494
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 494: {
+{
+[e :U _display_dash ]
+[f ]
+"495
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 495:     LATAbits.LATA5 = off;
+[e = . . _LATAbits 0 5 -> _off `uc ]
+"496
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 496:     LATCbits.LATC2 = off;
+[e = . . _LATCbits 0 2 -> _off `uc ]
+"497
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 497:     LATAbits.LATA4 = off;
+[e = . . _LATAbits 0 4 -> _off `uc ]
+"498
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 498:     LATCbits.LATC1 = off;
+[e = . . _LATCbits 0 1 -> _off `uc ]
+"499
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 499:     LATAbits.LATA2 = off;
+[e = . . _LATAbits 0 2 -> _off `uc ]
+"500
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 500:     LATCbits.LATC0 = off;
+[e = . . _LATCbits 0 0 -> _off `uc ]
+"501
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 501:     LATBbits.LATB5 = off;
+[e = . . _LATBbits 0 2 -> _off `uc ]
+"502
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 502:     LATCbits.LATC3 = off;
+[e = . . _LATCbits 0 3 -> _off `uc ]
+"503
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 503:     LATCbits.LATC6 = off;
+[e = . . _LATCbits 0 6 -> _off `uc ]
+"504
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 504:     LATCbits.LATC4 = off;
+[e = . . _LATCbits 0 4 -> _off `uc ]
+"505
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 505:     LATCbits.LATC5 = off;
+[e = . . _LATCbits 0 5 -> _off `uc ]
+"506
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 506:     LATBbits.LATB7 = off;
+[e = . . _LATBbits 0 4 -> _off `uc ]
+"508
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 508:     LATBbits.LATB5 = on;
+[e = . . _LATBbits 0 2 -> _on `uc ]
+"510
+[; ;C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED.c: 510: }
+[e :UE 521 ]
+}

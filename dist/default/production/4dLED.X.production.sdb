@@ -1,0 +1,173 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1508 ]
+[d frameptr 6 ]
+"86 C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED_before dots.c
+[v _myIsr myIsr `II(v  1 e 1 0 ]
+"167
+[v _main main `(v  1 e 1 0 ]
+"319
+[v _display display `(v  1 e 1 0 ]
+"659
+[v _display_dash display_dash `(v  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"62 C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED_before dots.c
+[v _buf buf `ui  1 e 2 0 ]
+"63
+[v _t t `uc  1 e 1 0 ]
+"64
+[v _temp_digit temp_digit `uc  1 e 1 0 ]
+"65
+[v _digit1 digit1 `uc  1 e 1 0 ]
+"66
+[v _digit2 digit2 `uc  1 e 1 0 ]
+"67
+[v _digit3 digit3 `uc  1 e 1 0 ]
+"68
+[v _digit4 digit4 `uc  1 e 1 0 ]
+"69
+[v _digit_error digit_error `uc  1 e 1 0 ]
+"71
+[v _no_spi no_spi `uc  1 e 1 0 ]
+"72
+[v _no_spi_timer no_spi_timer `ui  1 e 2 0 ]
+"73
+[v _no_spi_counter no_spi_counter `uc  1 e 1 0 ]
+"74
+[v _no_spi_digit no_spi_digit `uc  1 e 1 0 ]
+"75
+[v _update update `uc  1 e 1 0 ]
+"76
+[v _on on `uc  1 e 1 0 ]
+"77
+[v _off off `uc  1 e 1 0 ]
+"930 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f1508.h
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"950
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"970
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1041
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1091
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1130
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S75 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1881
+[u S82 . 1 `S75 1 . 1 0 ]
+[v _LATAbits LATAbits `VES82  1 e 1 @268 ]
+[s S113 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1925
+[u S119 . 1 `S113 1 . 1 0 ]
+[v _LATBbits LATBbits `VES119  1 e 1 @269 ]
+[s S92 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1967
+[u S101 . 1 `S92 1 . 1 0 ]
+[v _LATCbits LATCbits `VES101  1 e 1 @270 ]
+"2545
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2592
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2628
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3141
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3199
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3252
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3366
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @532 ]
+"3492
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @533 ]
+[s S26 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3512
+[s S35 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S37 . 1 `S26 1 . 1 0 `S35 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES37  1 e 1 @533 ]
+"3814
+[v _SSPCON3 SSPCON3 `VEuc  1 e 1 @535 ]
+"10382
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"10505
+[v _IRCF0 IRCF0 `VEb  1 e 0 @1227 ]
+"10508
+[v _IRCF1 IRCF1 `VEb  1 e 0 @1228 ]
+"10511
+[v _IRCF2 IRCF2 `VEb  1 e 0 @1229 ]
+"10514
+[v _IRCF3 IRCF3 `VEb  1 e 0 @1230 ]
+"11447
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"11735
+[v _SCS0 SCS0 `VEb  1 e 0 @1224 ]
+"11738
+[v _SCS1 SCS1 `VEb  1 e 0 @1225 ]
+"11762
+[v _SSP1IE SSP1IE `VEb  1 e 0 @1163 ]
+"11765
+[v _SSP1IF SSP1IF `VEb  1 e 0 @139 ]
+"11768
+[v _SSPEN SSPEN `VEb  1 e 0 @4269 ]
+"11786
+[v _SSSEL SSSEL `VEb  1 e 0 @2284 ]
+"11903
+[v _TMR2IE TMR2IE `VEb  1 e 0 @1161 ]
+"11906
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"11909
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+"167 C:/Users/lexa/MPLABXProjects/4dLED.X/newmain4dLED_before dots.c
+[v _main main `(v  1 e 1 0 ]
+{
+"317
+} 0
+"659
+[v _display_dash display_dash `(v  1 e 1 0 ]
+{
+"676
+} 0
+"319
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@x x `ui  1 p 2 0 ]
+"657
+} 0
+"86
+[v _myIsr myIsr `II(v  1 e 1 0 ]
+{
+"165
+} 0
